@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name ="viewport" content ="width =device-width, initial-scale=1.0">
+   <link rel="stylesheet" href ="style.css">
+   <title>Document</title>
+</head>
+<body>
+	<div class="conteiner">
+    <header>
+      <ul>
+         <li><a href="#"><img id="logo" src="img/badge.png" alt="alt"></a></li>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Homework</a></li>
+         <li><a href="#">Settings</a></li>
+         <li><a href="#"><img src="img/av_64.png" alt="alt"></a></li>
+      </ul>
+    </header>
+    <h2>Settings</h2>
+    <div class="bg">
+       <div>Avatar</div>
+       <div>Student's info</div>
+       <div>Change password</div>
+    </div>
+    <div class="conteiner-2">
+       <div class="part-1">
+          <form action="#" method="post">
+             <img src="img/av_256.png" alt="alt">
+             <label><input type="file">Choose photo</label>
+          </form>
+       </div>
+       <div class="part-2">
+          <form action="#" method="post">
+             <input type="text" placeholder="First name" required maxlength="16" pattern="[A-Za-zА-Яа-яЁё]{2,16}">
+             <input type="text" placeholder="Last name" required maxlength="16" pattern="[A-Za-zА-Яа-яЁё]{2,16}">
+             <input type="email" placeholder="Email">
+             <input type="tel" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+             <input type="text" placeholder="Adress" required>
+             <input type="text" placeholder="FB link">
+             <button>Save changes</button>
+          </form>
+       </div>
+       <div class="part-3">
+          <form action="#" method="post">
+             <input type="text" placeholder="Old password" maxlength="20">
+             <input type="password" placeholder="New password" maxlength="20" pattern="(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}">
+             <input type="new-password" placeholder="Repeat password" maxlength="20" pattern="(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}">
+             <button>Change password</button>
+          </form>
+       </div>
+    </div>
+   </div>
+</body>
+</html>
