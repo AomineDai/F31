@@ -21,6 +21,7 @@ header ul li a{
 	text-decoration: none;
 	color: lightgrey;
 }
+header ul li:nth-child(4) a{color: #fff;}
 header ul li:nth-child(2),
 header ul li:nth-child(3),
 header ul li:nth-child(4){
@@ -31,8 +32,7 @@ header ul li:nth-child(5){
 	margin-right: 4%;
 }
 header ul li:nth-child(2) a:hover,
-header ul li:nth-child(3) a:hover,
-header ul li:nth-child(4) a:hover{
+header ul li:nth-child(3) a:hover{
 	transition: 1s;
 	color: #fff;
 }
