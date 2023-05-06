@@ -1,0 +1,103 @@
+body{
+	font-family: 'Arial';
+}
+.container header{background-color: #1b5589;}
+#logo{
+	width: 64px;
+	height: 64px;
+}
+header .row div:nth-child(2),
+header .row div:nth-child(3),
+header .row div:nth-child(4){
+	text-align: right;
+	margin-top: 18px;
+}
+header .row div:nth-child(2) a{color: #fff;}
+header .row div:nth-child(3) a,
+header .row div:nth-child(4) a{color: grey;}
+header .row div:nth-child(2) a:hover,
+header .row div:nth-child(3) a:hover,
+header .row div:nth-child(4) a:hover{
+	text-decoration: none;
+	color: #fff;
+	transition: 1s;
+}
+.bg .container h3, h4{
+	text-align: center;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.col-6{
+	margin-bottom: 25px;
+}
+.part-1{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.part-1 ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.part-1 ul li:nth-child(1){font-weight: bold; margin-left: -40px;}
+.part-1 ul li:nth-child(2){
+	margin-bottom: 10px;
+	color: #ccc;
+	float: right;
+}
+.bb{border-bottom: 1px solid #ccc;}
+.space{padding: 20px 20px;}
+.col-6 button{
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 3px;
+	background-color: grey;
+	border: none;
+	padding: 5px 0;
+	color: #fff;
+}
+.col-6 button:hover{
+	background-color: lightgrey;
+	color: grey;
+	transition: 1s;
+}
+.part-3 img{
+	width: 32px;
+	height: 32px;
+}
+.part-2 span{border-left: 1px solid #ccc;}
+.part-4 span{border-right: 1px solid #ccc;}
+.part-2 span, .part-4 span{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 0px 15px;
+	font-size: 14px;
+	display: inline-block;
+    position: relative;
+}
+.part-2 span::before{
+	content: '';
+	position: absolute;
+	border: 1px solid #ccc;
+	border-width: 0 1px 1px 0;
+	transform: rotate(-45deg);
+    width: 18px;
+    height: 18px;
+    right: -9px;
+    top: 3px;
+}
+.part-4 span::before{
+	content: '';
+	position: absolute;
+	border: 1px solid #ccc;
+	border-width: 0 1px 1px 0;
+	transform: rotate(135deg);
+    width: 18px;
+    height: 18px;
+    left: -9px;
+    top: 3px;
+}
+.part-2{text-align: right;}
+.part-3{text-align: center; font-weight: bold;}
+.part_4{text-align: left;}
+.part-2 div, .part-4 div{margin-bottom: 26.3px;}
+.part-3 div{margin-bottom: 18px;}
